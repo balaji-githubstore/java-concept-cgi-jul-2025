@@ -9,6 +9,8 @@ public class Employee {
 	public static String companyName;
 	public static String companyLocation;
 	
+
+	
 	public Employee(int empId)
 	{
 		System.out.println("launch browser!!!");
@@ -19,12 +21,12 @@ public class Employee {
 	{
 		this.empId=empId;
 		this.empName=empName;
-		this.printEmployeeDetails();
 	}
 	
 	public Employee(String empName,int empId)
 	{
 		this(empId,empName);
+		
 	}
 	
 	
