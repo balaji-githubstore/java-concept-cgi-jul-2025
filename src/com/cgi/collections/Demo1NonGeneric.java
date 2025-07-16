@@ -1,7 +1,7 @@
 package com.cgi.collections;
 
 import java.util.ArrayList;
-
+//non generic - not recommended - because boxing and unboxing happens always
 public class Demo1NonGeneric {
 
 	public static void main(String[] args) {
