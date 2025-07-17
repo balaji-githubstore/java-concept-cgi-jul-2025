@@ -32,6 +32,7 @@ public class Employee {
 	
 	public void printEmployeeDetails()
 	{
+		int a=20;
 		System.out.println(this.empId);
 		System.out.println(empName);
 		System.out.println(empSalary);
